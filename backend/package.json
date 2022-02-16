@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "gateway for youtube API",
+  "author": "Pedro Acosta <yandalar@gmail.com>",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "./bin/app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.26.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "http-errors": "^2.0.0",
+    "pino": "^7.8.0",
+    "pino-http": "^6.6.0",
+    "pino-pretty": "^7.5.1"
+  }
+}
